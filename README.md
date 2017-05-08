@@ -1,1 +1,2 @@
-# ./fileName  
+# ./fileName $1 - argument
+
