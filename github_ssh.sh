@@ -1,7 +1,7 @@
 #!/bin/bash
 
 	echo ${yel}
-	local SSH_CHK=$(eval "git remote -v");
+	SSH_CHK=$(eval "git remote -v");
 	echo $(pwd)
 	echo ${end}
 	printf "\n"
