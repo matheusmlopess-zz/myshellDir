@@ -15,8 +15,8 @@
 	fi
 
    command ls -a;
-   local NUMBER=$[ ( $RANDOM % 255 )  + 1 ]
-   local VAR=$@;
+   NUMBER=$[ ( $RANDOM % 255 )  + 1 ]
+   VAR=$@;
 
 	if [[ -z $VAR ]]; then 
 		printf "\n"
@@ -25,7 +25,7 @@
         	echo  ${end}
 		printf "\n"
 
-     local CONTEUDO=$(xclip -o);
+     CONTEUDO=$(xclip -o);
         echo ${rnd}${NUMBER}m $CONTEUDO  >> commands.txt
 	else
         echo ${rnd}${NUMBER}m $@ ${end} >> commands.txt
