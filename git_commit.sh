@@ -1,12 +1,12 @@
 #!/bin/bash	
 
-	local path=$(pwd);
+	path=$(pwd);
 	pushd ~/Desktop;
 
-	local MSG="";
-	local repository="";
-	local response="";
-	local token="";
+	MSG="";
+	repository="";
+	response="";
+	token="";
 
 		if [ ! -d ~/Desktop/gits ]; then
 			mkdir gits && chmod 700 ~/Desktop/gits
