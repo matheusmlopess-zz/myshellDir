@@ -1,5 +1,10 @@
 #!/bin/bash
 
+  yel=$'\e[1;33m'
+  cyn=$'\e[1;36m'
+  end=$'\e[0m'
+
+  
 	echo ${yel}
 	SSH_CHK=$(eval "git remote -v");
 	echo $(pwd)
