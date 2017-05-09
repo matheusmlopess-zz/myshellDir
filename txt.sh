@@ -7,7 +7,7 @@
 	cd gits/txts	
 
 
-	local VAR=$@;
+	VAR=$@;
 if [[ -z $VAR ]]; then
         VAR=$(xclip -o);
 	echo ${yel};     xclip -o;    		        printf "\n"; echo ${end};
