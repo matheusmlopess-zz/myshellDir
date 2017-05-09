@@ -1,4 +1,8 @@
 #!/bin/bash	
+
+  yel=$'\e[1;33m'
+  end=$'\e[0m'
+  
 	pushd ~/Desktop;
 	cd gits/txts	
 
