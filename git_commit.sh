@@ -33,7 +33,7 @@
 	elif [[ $1 == "bashrc" ]]
 	then 
 		cd dotFiles-linux;
-		local NUM=$[ ($RANDOM % 9999) +1 ];
+		NUM=$[ ($RANDOM % 9999) +1 ];
 		ls -la	&& printf "\n"
 		mv .bashrc temp/.bashrc$NUM;
 		command cp $HOME/.bashrc .
