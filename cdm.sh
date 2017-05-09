@@ -1,7 +1,8 @@
 #!/bin/bash
 
 rnd=$'\e[38;05;'
-  
+end=$'\e[0m'
+
 	# init function: creat cmd folder the first time cmd() is called.
 	pushd ~/Desktop;
 	if [ ! -d ~/Desktop/gits ]; then 
